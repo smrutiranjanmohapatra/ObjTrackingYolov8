@@ -248,27 +248,6 @@ public:
         postprocess(frame, outs, classIds, confidences, boxes);
         //imshow("image2", frame);
     }
-
-    //vector<String> getOutputsNames(const Net& net) {
-    //    static vector<String> names;
-    //    if (names.empty()) {
-    //        // Get the indices of the output layers, i.e., the layers with unconnected outputs
-    //        vector<int> outLayers = net.getUnconnectedOutLayers();
-
-    //        // Get the names of all the layers in the network
-    //        vector<String> layersNames = net.getLayerNames();
-
-    //        // Get the names of the output layers in names
-    //        names.resize(outLayers.size());
-    //        for (size_t i = 0; i < outLayers.size(); ++i)
-    //            names[i] = layersNames[outLayers[i] - 1];
-    //    }
-    //    return names;
-    //}
-
-
-   
-
  
 };
 
